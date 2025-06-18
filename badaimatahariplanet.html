@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaruh Badai Matahari Terhadap Planet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        p, ul {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+        }
+        .mute-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .mute-button:hover {
+            background-color: #2980b9;
+        }
+        .youtube-embed {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 56.25%; /* 16:9 aspect ratio for YouTube */
+            margin: 10px 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .youtube-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            header, section, footer {
+                padding: 10px;
+            }
+            .youtube-embed {
+                padding-top: 75%; /* Adjust for smaller screens if needed */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GEOFISIKA - UNPAD</h1>
+        <h2>PENGARUH BADAI MATAHARI TERHADAP PLANET</h2>
+        <button class="mute-button" id="muteToggle">Beralih ke Bisu</button>
+    </header>
+
+    <section>
+        <h3>Pendahuluan</h3>
+        <p>
+            Badai matahari atau <em>solar storm</em> adalah peristiwa pelepasan energi yang sangat besar dari permukaan Matahari, biasanya terjadi bersamaan dengan letusan sinar-X (<em>solar flare</em>) maupun lontaran massa korona (<em>coronal mass ejection</em>, CME). <em>Solar flare</em> memancarkan radiasi elektromagnetik yang sampai ke planet-planet dalam hitungan menit, sementara CME mengangkut awan partikel bermuatan tinggi seperti elektron, proton, dan ion berat yang memerlukan waktu satu hingga tiga hari untuk tiba di sekitar orbit Bumi. Intensitas dan frekuensi badai matahari dipengaruhi oleh siklus aktivitas Matahari yang berulang setiap ±11 tahun.
+        </p>
+    </section>
+
+    <section>
+        <h3>Mekanisme Terjadinya</h3>
+        <p>
+            Proses utama badai matahari bermula dari rekoneksi medan magnetik di korona Matahari. Di sana, aliran plasma panas mengacak-acak garis-garis medan magnet sehingga menyimpan energi besar. Ketika rekoneksi magnetik terjadi, yakni saat garis-garis medan terputus dan menyusun ulang dirinya, energi terperangkap dilepaskan secara mendadak. Pernyataan ini menjelaskan mengapa <em>solar flare</em> dan CME sering muncul berpasangan: <em>flare</em> melepaskan sinar-X, sedangkan CME melemparkan massa korona ke ruang antariksa.
+        </p>
+    </section>
+
+    <section>
+        <h3>Interaksi dengan Medan Magnet Planet</h3>
+        <p>
+            Saat awan partikel koronal tiba di lingkungan sebuah planet, interaksinya sangat bergantung pada kekuatan dan konfigurasi medan magnet planet tersebut. Pada planet bermedan magnet kuat, seperti Bumi, Jupiter, dan Saturnus, partikel bermuatan dipandu sepanjang garis-garis gaya magnet menuju kutub, menimbulkan aurora di lapisan ionosfer. Pergeseran medan magnet yang tiba-tiba juga dapat menginduksi arus di permukaan (<em>geomagnetically induced currents</em>) yang merambat ke jaringan listrik.
+        </p>
+        <p>
+            Di Bumi, dampak paling kentara adalah kemunculan aurora di lintang yang lebih rendah dari biasanya pada badai geomagnetik kuat. Namun risiko terbesar terletak pada gangguan satelit dan jaringan listrik. Lonjakan radiasi dapat merusak sirkuit elektronik satelit dan mempercepat degradasi panel surya, sedangkan arus induksi geomagnetik berpotensi memicu kerusakan transformator dan pemadaman massal. Transmisi radio gelombang pendek, navigasi GPS, dan komunikasi penerbangan di lintang tinggi pun rentan terganggu.
+        </p>
+    </section>
+
+    <section>
+        <h3>Bumi & Merkurius</h3>
+        <p>
+            Sebagai planet terdekat ke Matahari, Merkurius hanya memiliki medan magnet yang lemah dan atmosfer yang sangat tipis (ekzosfer). Ketika lontaran massa korona (CME) menghantam, partikel bermuatan langsung menabrak permukaan batuannya, menyebabkan <em>sputtering</em>—yaitu atom-atom permukaan terlepas dan terlempar ke ruang angkasa. Proses ini secara perlahan menipiskan eksosfer Merkurius dan mengubah komposisi lokal gas di sekitarnya.
+        </p>
+    </section>
+
+    <section>
+        <h3>Venus & Mars</h3>
+        <p>
+            Venus memiliki atmosfer tebal namun tidak memiliki medan magnet global yang signifikan. Partikel CME berinteraksi dengan ionosfer Venus, menyebabkan ionisasi dan kehilangan partikel atmosfer melalui proses seperti <em>sputtering</em> dan pengangkutan ion. Hal ini berkontribusi pada perubahan komposisi atmosfer Venus dalam jangka panjang.
+        </p>
+        <p>
+            Medan magnet Mars tersisa dalam bentuk lokal—bekas aktivitas lempeng tektonik—dan atmosfernya hanya setebal 1% dari Bumi. Partikel CME menyusup lebih mudah, memicu <em>sputtering</em> dan <em>photo-ionization</em> yang mempercepat hilangnya molekul gas CO₂ dan H₂O dari lapisan atas. Dalam jangka panjang, badai matahari berkontribusi pada penipisan atmosfer Mars yang membuatnya sulit menahan panas dan melindungi permukaan dari radiasi kosmik.
+        </p>
+    </section>
+
+    <section>
+        <h3>Jupiter & Saturnus</h3>
+        <p>
+            Jupiter memiliki medan magnet terkuat di antara planet-planet Tata Surya. Ketika partikel bermuatan dari Matahari tiba, magnetosfer raksasa ini memantulkannya dan mempercepatnya di sepanjang sabuk radiasi. Hasilnya, intensitas sabuk Van Allen Jupiter meningkat tajam, memicu emisi aurora yang jauh lebih terang di kutubnya, termasuk aurora dalam sinar-X. Planet ini relatif terlindung, tetapi lingkungan radiasinya menjadi semakin berbahaya bagi wahana antariksa.
+        </p>
+        <p>
+            Seperti Jupiter, Saturnus juga memiliki magnetosfer besar meski lebih lemah. Partikel CME yang terperangkap memicu gelombang plasma dan meningkatkan radiasi sabuk. Aurora Saturnus, yang sudah dapat diamati dalam ultraviolet dan sinar-X, menjadi jauh lebih aktif. Variasi medan magnet juga dapat menimbulkan arus di cincin planet, memengaruhi distribusi debu dan partikel es di sekitarnya.
+        </p>
+    </section>
+
+    <section>
+        <h3>Uranus & Neptunus</h3>
+        <p>
+            Uranus dan Neptunus, sebagai raksasa es, memiliki medan magnetik yang miring dan teroffset dari sumbu rotasi mereka. Saat badai matahari tiba, interaksi yang tidak simetris memicu arus kompleks di magnetosfer mereka. Emisi aurora di kedua planet bisa tiba-tiba menguat dan bergeser posisi, meski intensitasnya lebih rendah dibandingkan Jupiter dan Saturnus karena jaraknya yang jauh dari Matahari. Partikel CME juga dapat memengaruhi atmosfer atas, menyebabkan ionisasi dan perubahan distribusi partikel di magnetosfer mereka.
+        </p>
+    </section>
+
+    <section>
+        <h3>Studi Kasus</h3>
+        <ul>
+            <li><strong>Peristiwa Carrington (1–2 September 1859)</strong>: CME terkuat yang tercatat, memicu aurora hingga lintang tropis dan menyebabkan korsleting masif pada sistem telegraf di Eropa dan Amerika.</li>
+            <li><strong>Badai Quebec (13 Maret 1989)</strong>: Geomagnetic storm yang menginduksi arus kuat di jaringan listrik, mengakibatkan pemadaman bagi enam juta pelanggan di Québec, Kanada, selama sembilan jam.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Video Penjelasan</h3>
+        <div class="youtube-embed">
+            <iframe src="https://www.youtube.com/embed/9Tlj8OMnsaU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by: M. Zidane Ghifari (140710240032) & Deffa Mustami Syahid (140710240037)</p>
+        <p>Vergil Badai Matahari</p>
+        <p>Didesain dengan Canva. Konten ini tunduk pada <a href="https://www.canva.com/policies/terms-of-use/" target="_blank" rel="noopener">Persyaratan Penggunaan Canva</a>.</p>
+    </footer>
+
+    <script>
+        // JavaScript to handle mute/unmute toggle
+        const muteButton = document.getElementById('muteToggle');
+        let isMuted = false;
+
+        muteButton.addEventListener('click', () => {
+            isMuted = !isMuted;
+            muteButton.textContent = isMuted ? 'Beralih ke Suara' : 'Beralih ke Bisu';
+            console.log(`Audio is now ${isMuted ? 'muted' : 'unmuted'}`);
+            // Note: YouTube iframe audio cannot be controlled due to cross-origin restrictions
+            // For local media, add e.g., <audio id="backgroundAudio" src="audio/file.mp3" loop></audio>
+            // Then: document.getElementById('backgroundAudio').muted = isMuted;
+        });
+
+        // Log when page loads for debugging
+        console.log('Badai Matahari page initialized');
+    </script>
+</body>
+</html>
